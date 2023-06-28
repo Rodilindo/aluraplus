@@ -10,10 +10,34 @@
 }
 
 body{
-    background-color:var(--cor-de-fundo);
-    color:var(--branco-principal);
-
+    background-color:var(--cor-de-fundo)
 }
+
+h1{
+  
+color: var(--branco-principal);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
   .principal{
-    background-image: url(./img/Background\\(3).png);
+    background-image:url(./img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--branco-principal);
+    display: block;
+  }
+
+  .botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
   }
